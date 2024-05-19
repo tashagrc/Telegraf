@@ -22,6 +22,13 @@
 		A32D54052BF9CC6F00D26086 /* Telegraf_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D54042BF9CC6F00D26086 /* Telegraf_Watch_AppTests.swift */; };
 		A32D540F2BF9CC6F00D26086 /* Telegraf_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D540E2BF9CC6F00D26086 /* Telegraf_Watch_AppUITests.swift */; };
 		A32D54112BF9CC6F00D26086 /* Telegraf_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D54102BF9CC6F00D26086 /* Telegraf_Watch_AppUITestsLaunchTests.swift */; };
+		A32D542A2BF9CDF600D26086 /* Lora-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A32D54282BF9CDF600D26086 /* Lora-VariableFont_wght.ttf */; };
+		A32D542B2BF9CDF600D26086 /* Lora-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A32D54282BF9CDF600D26086 /* Lora-VariableFont_wght.ttf */; };
+		A32D542C2BF9CDF600D26086 /* Lora-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A32D54292BF9CDF600D26086 /* Lora-Italic-VariableFont_wght.ttf */; };
+		A32D542D2BF9CDF600D26086 /* Lora-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A32D54292BF9CDF600D26086 /* Lora-Italic-VariableFont_wght.ttf */; };
+		A32D54312BF9D18000D26086 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D54302BF9D18000D26086 /* Constant.swift */; };
+		A32D54322BF9D18000D26086 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D54302BF9D18000D26086 /* Constant.swift */; };
+		A32D54372BF9D7DE00D26086 /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D54362BF9D7DE00D26086 /* PlaygroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +104,11 @@
 		A32D540A2BF9CC6F00D26086 /* Telegraf Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telegraf Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32D540E2BF9CC6F00D26086 /* Telegraf_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telegraf_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		A32D54102BF9CC6F00D26086 /* Telegraf_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telegraf_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A32D54282BF9CDF600D26086 /* Lora-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A32D54292BF9CDF600D26086 /* Lora-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A32D542E2BF9CE2D00D26086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A32D54302BF9D18000D26086 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A32D54362BF9D7DE00D26086 /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,9 +186,12 @@
 		A32D53CA2BF9CC6D00D26086 /* Telegraf */ = {
 			isa = PBXGroup;
 			children = (
+				A32D54392BF9D7E200D26086 /* View */,
+				A32D542F2BF9D16E00D26086 /* Util */,
+				A32D54272BF9CD7A00D26086 /* Font */,
 				A32D53CB2BF9CC6D00D26086 /* TelegrafApp.swift */,
-				A32D53CD2BF9CC6D00D26086 /* ContentView.swift */,
 				A32D53CF2BF9CC6E00D26086 /* Assets.xcassets */,
+				A32D542E2BF9CE2D00D26086 /* Info.plist */,
 				A32D53D12BF9CC6E00D26086 /* Preview Content */,
 			);
 			path = Telegraf;
@@ -241,6 +256,32 @@
 				A32D54102BF9CC6F00D26086 /* Telegraf_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "Telegraf Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		A32D54272BF9CD7A00D26086 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A32D54292BF9CDF600D26086 /* Lora-Italic-VariableFont_wght.ttf */,
+				A32D54282BF9CDF600D26086 /* Lora-VariableFont_wght.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		A32D542F2BF9D16E00D26086 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A32D54302BF9D18000D26086 /* Constant.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A32D54392BF9D7E200D26086 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A32D53CD2BF9CC6D00D26086 /* ContentView.swift */,
+				A32D54362BF9D7DE00D26086 /* PlaygroundView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +459,8 @@
 			files = (
 				A32D53D32BF9CC6E00D26086 /* Preview Assets.xcassets in Resources */,
 				A32D53D02BF9CC6E00D26086 /* Assets.xcassets in Resources */,
+				A32D542A2BF9CDF600D26086 /* Lora-VariableFont_wght.ttf in Resources */,
+				A32D542C2BF9CDF600D26086 /* Lora-Italic-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +484,8 @@
 			files = (
 				A32D53FB2BF9CC6F00D26086 /* Preview Assets.xcassets in Resources */,
 				A32D53F82BF9CC6F00D26086 /* Assets.xcassets in Resources */,
+				A32D542B2BF9CDF600D26086 /* Lora-VariableFont_wght.ttf in Resources */,
+				A32D542D2BF9CDF600D26086 /* Lora-Italic-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +512,8 @@
 			files = (
 				A32D53CE2BF9CC6D00D26086 /* ContentView.swift in Sources */,
 				A32D53CC2BF9CC6D00D26086 /* TelegrafApp.swift in Sources */,
+				A32D54312BF9D18000D26086 /* Constant.swift in Sources */,
+				A32D54372BF9D7DE00D26086 /* PlaygroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +540,7 @@
 			files = (
 				A32D53F62BF9CC6E00D26086 /* ContentView.swift in Sources */,
 				A32D53F42BF9CC6E00D26086 /* TelegrafApp.swift in Sources */,
+				A32D54322BF9D18000D26086 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -731,6 +779,7 @@
 				DEVELOPMENT_TEAM = 76R68ZMQGR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Telegraf/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Telegraf;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -764,6 +813,7 @@
 				DEVELOPMENT_TEAM = 76R68ZMQGR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Telegraf/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Telegraf;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
