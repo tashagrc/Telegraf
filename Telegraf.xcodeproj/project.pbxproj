@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A32D53CC2BF9CC6D00D26086 /* TelegrafApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D53CB2BF9CC6D00D26086 /* TelegrafApp.swift */; };
+		A32D53CE2BF9CC6D00D26086 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D53CD2BF9CC6D00D26086 /* ContentView.swift */; };
+		A32D53D02BF9CC6E00D26086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32D53CF2BF9CC6E00D26086 /* Assets.xcassets */; };
+		A32D53D32BF9CC6E00D26086 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32D53D22BF9CC6E00D26086 /* Preview Assets.xcassets */; };
+		A32D53DD2BF9CC6E00D26086 /* TelegrafTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D53DC2BF9CC6E00D26086 /* TelegrafTests.swift */; };
+		A32D53E72BF9CC6E00D26086 /* TelegrafUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D53E62BF9CC6E00D26086 /* TelegrafUITests.swift */; };
+		A32D53E92BF9CC6E00D26086 /* TelegrafUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D53E82BF9CC6E00D26086 /* TelegrafUITestsLaunchTests.swift */; };
+		A32D53EF2BF9CC6E00D26086 /* Telegraf Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A32D53EE2BF9CC6E00D26086 /* Telegraf Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A32D53F42BF9CC6E00D26086 /* TelegrafApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D53F32BF9CC6E00D26086 /* TelegrafApp.swift */; };
+		A32D53F62BF9CC6E00D26086 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D53F52BF9CC6E00D26086 /* ContentView.swift */; };
+		A32D53F82BF9CC6F00D26086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32D53F72BF9CC6F00D26086 /* Assets.xcassets */; };
+		A32D53FB2BF9CC6F00D26086 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32D53FA2BF9CC6F00D26086 /* Preview Assets.xcassets */; };
+		A32D54052BF9CC6F00D26086 /* Telegraf_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D54042BF9CC6F00D26086 /* Telegraf_Watch_AppTests.swift */; };
+		A32D540F2BF9CC6F00D26086 /* Telegraf_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D540E2BF9CC6F00D26086 /* Telegraf_Watch_AppUITests.swift */; };
+		A32D54112BF9CC6F00D26086 /* Telegraf_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D54102BF9CC6F00D26086 /* Telegraf_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A32D53D92BF9CC6E00D26086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32D53C02BF9CC6D00D26086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32D53C72BF9CC6D00D26086;
+			remoteInfo = Telegraf;
+		};
+		A32D53E32BF9CC6E00D26086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32D53C02BF9CC6D00D26086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32D53C72BF9CC6D00D26086;
+			remoteInfo = Telegraf;
+		};
+		A32D53F02BF9CC6E00D26086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32D53C02BF9CC6D00D26086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32D53ED2BF9CC6E00D26086;
+			remoteInfo = "Telegraf Watch App";
+		};
+		A32D54012BF9CC6F00D26086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32D53C02BF9CC6D00D26086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32D53ED2BF9CC6E00D26086;
+			remoteInfo = "Telegraf Watch App";
+		};
+		A32D540B2BF9CC6F00D26086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32D53C02BF9CC6D00D26086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32D53ED2BF9CC6E00D26086;
+			remoteInfo = "Telegraf Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A32D54172BF9CC6F00D26086 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A32D53EF2BF9CC6E00D26086 /* Telegraf Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A32D53C82BF9CC6D00D26086 /* Telegraf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegraf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32D53CB2BF9CC6D00D26086 /* TelegrafApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegrafApp.swift; sourceTree = "<group>"; };
+		A32D53CD2BF9CC6D00D26086 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A32D53CF2BF9CC6E00D26086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A32D53D22BF9CC6E00D26086 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A32D53D82BF9CC6E00D26086 /* TelegrafTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelegrafTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32D53DC2BF9CC6E00D26086 /* TelegrafTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegrafTests.swift; sourceTree = "<group>"; };
+		A32D53E22BF9CC6E00D26086 /* TelegrafUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelegrafUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32D53E62BF9CC6E00D26086 /* TelegrafUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegrafUITests.swift; sourceTree = "<group>"; };
+		A32D53E82BF9CC6E00D26086 /* TelegrafUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegrafUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A32D53EE2BF9CC6E00D26086 /* Telegraf Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telegraf Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32D53F32BF9CC6E00D26086 /* TelegrafApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegrafApp.swift; sourceTree = "<group>"; };
+		A32D53F52BF9CC6E00D26086 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A32D53F72BF9CC6F00D26086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A32D53FA2BF9CC6F00D26086 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A32D54002BF9CC6F00D26086 /* Telegraf Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telegraf Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32D54042BF9CC6F00D26086 /* Telegraf_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telegraf_Watch_AppTests.swift; sourceTree = "<group>"; };
+		A32D540A2BF9CC6F00D26086 /* Telegraf Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telegraf Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32D540E2BF9CC6F00D26086 /* Telegraf_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telegraf_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		A32D54102BF9CC6F00D26086 /* Telegraf_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telegraf_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32D53C52BF9CC6D00D26086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D53D52BF9CC6E00D26086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D53DF2BF9CC6E00D26086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D53EB2BF9CC6E00D26086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D53FD2BF9CC6F00D26086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D54072BF9CC6F00D26086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A32D53BF2BF9CC6D00D26086 = {
+			isa = PBXGroup;
+			children = (
+				A32D53CA2BF9CC6D00D26086 /* Telegraf */,
+				A32D53DB2BF9CC6E00D26086 /* TelegrafTests */,
+				A32D53E52BF9CC6E00D26086 /* TelegrafUITests */,
+				A32D53F22BF9CC6E00D26086 /* Telegraf Watch App */,
+				A32D54032BF9CC6F00D26086 /* Telegraf Watch AppTests */,
+				A32D540D2BF9CC6F00D26086 /* Telegraf Watch AppUITests */,
+				A32D53C92BF9CC6D00D26086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A32D53C92BF9CC6D00D26086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32D53C82BF9CC6D00D26086 /* Telegraf.app */,
+				A32D53D82BF9CC6E00D26086 /* TelegrafTests.xctest */,
+				A32D53E22BF9CC6E00D26086 /* TelegrafUITests.xctest */,
+				A32D53EE2BF9CC6E00D26086 /* Telegraf Watch App.app */,
+				A32D54002BF9CC6F00D26086 /* Telegraf Watch AppTests.xctest */,
+				A32D540A2BF9CC6F00D26086 /* Telegraf Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A32D53CA2BF9CC6D00D26086 /* Telegraf */ = {
+			isa = PBXGroup;
+			children = (
+				A32D53CB2BF9CC6D00D26086 /* TelegrafApp.swift */,
+				A32D53CD2BF9CC6D00D26086 /* ContentView.swift */,
+				A32D53CF2BF9CC6E00D26086 /* Assets.xcassets */,
+				A32D53D12BF9CC6E00D26086 /* Preview Content */,
+			);
+			path = Telegraf;
+			sourceTree = "<group>";
+		};
+		A32D53D12BF9CC6E00D26086 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A32D53D22BF9CC6E00D26086 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A32D53DB2BF9CC6E00D26086 /* TelegrafTests */ = {
+			isa = PBXGroup;
+			children = (
+				A32D53DC2BF9CC6E00D26086 /* TelegrafTests.swift */,
+			);
+			path = TelegrafTests;
+			sourceTree = "<group>";
+		};
+		A32D53E52BF9CC6E00D26086 /* TelegrafUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A32D53E62BF9CC6E00D26086 /* TelegrafUITests.swift */,
+				A32D53E82BF9CC6E00D26086 /* TelegrafUITestsLaunchTests.swift */,
+			);
+			path = TelegrafUITests;
+			sourceTree = "<group>";
+		};
+		A32D53F22BF9CC6E00D26086 /* Telegraf Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A32D53F32BF9CC6E00D26086 /* TelegrafApp.swift */,
+				A32D53F52BF9CC6E00D26086 /* ContentView.swift */,
+				A32D53F72BF9CC6F00D26086 /* Assets.xcassets */,
+				A32D53F92BF9CC6F00D26086 /* Preview Content */,
+			);
+			path = "Telegraf Watch App";
+			sourceTree = "<group>";
+		};
+		A32D53F92BF9CC6F00D26086 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A32D53FA2BF9CC6F00D26086 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A32D54032BF9CC6F00D26086 /* Telegraf Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A32D54042BF9CC6F00D26086 /* Telegraf_Watch_AppTests.swift */,
+			);
+			path = "Telegraf Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A32D540D2BF9CC6F00D26086 /* Telegraf Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A32D540E2BF9CC6F00D26086 /* Telegraf_Watch_AppUITests.swift */,
+				A32D54102BF9CC6F00D26086 /* Telegraf_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Telegraf Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32D53C72BF9CC6D00D26086 /* Telegraf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32D54182BF9CC6F00D26086 /* Build configuration list for PBXNativeTarget "Telegraf" */;
+			buildPhases = (
+				A32D53C42BF9CC6D00D26086 /* Sources */,
+				A32D53C52BF9CC6D00D26086 /* Frameworks */,
+				A32D53C62BF9CC6D00D26086 /* Resources */,
+				A32D54172BF9CC6F00D26086 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32D53F12BF9CC6E00D26086 /* PBXTargetDependency */,
+			);
+			name = Telegraf;
+			productName = Telegraf;
+			productReference = A32D53C82BF9CC6D00D26086 /* Telegraf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A32D53D72BF9CC6E00D26086 /* TelegrafTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32D541B2BF9CC6F00D26086 /* Build configuration list for PBXNativeTarget "TelegrafTests" */;
+			buildPhases = (
+				A32D53D42BF9CC6E00D26086 /* Sources */,
+				A32D53D52BF9CC6E00D26086 /* Frameworks */,
+				A32D53D62BF9CC6E00D26086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32D53DA2BF9CC6E00D26086 /* PBXTargetDependency */,
+			);
+			name = TelegrafTests;
+			productName = TelegrafTests;
+			productReference = A32D53D82BF9CC6E00D26086 /* TelegrafTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A32D53E12BF9CC6E00D26086 /* TelegrafUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32D541E2BF9CC6F00D26086 /* Build configuration list for PBXNativeTarget "TelegrafUITests" */;
+			buildPhases = (
+				A32D53DE2BF9CC6E00D26086 /* Sources */,
+				A32D53DF2BF9CC6E00D26086 /* Frameworks */,
+				A32D53E02BF9CC6E00D26086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32D53E42BF9CC6E00D26086 /* PBXTargetDependency */,
+			);
+			name = TelegrafUITests;
+			productName = TelegrafUITests;
+			productReference = A32D53E22BF9CC6E00D26086 /* TelegrafUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A32D53ED2BF9CC6E00D26086 /* Telegraf Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32D54142BF9CC6F00D26086 /* Build configuration list for PBXNativeTarget "Telegraf Watch App" */;
+			buildPhases = (
+				A32D53EA2BF9CC6E00D26086 /* Sources */,
+				A32D53EB2BF9CC6E00D26086 /* Frameworks */,
+				A32D53EC2BF9CC6E00D26086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Telegraf Watch App";
+			productName = "Telegraf Watch App";
+			productReference = A32D53EE2BF9CC6E00D26086 /* Telegraf Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A32D53FF2BF9CC6F00D26086 /* Telegraf Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32D54212BF9CC6F00D26086 /* Build configuration list for PBXNativeTarget "Telegraf Watch AppTests" */;
+			buildPhases = (
+				A32D53FC2BF9CC6F00D26086 /* Sources */,
+				A32D53FD2BF9CC6F00D26086 /* Frameworks */,
+				A32D53FE2BF9CC6F00D26086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32D54022BF9CC6F00D26086 /* PBXTargetDependency */,
+			);
+			name = "Telegraf Watch AppTests";
+			productName = "Telegraf Watch AppTests";
+			productReference = A32D54002BF9CC6F00D26086 /* Telegraf Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A32D54092BF9CC6F00D26086 /* Telegraf Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32D54242BF9CC6F00D26086 /* Build configuration list for PBXNativeTarget "Telegraf Watch AppUITests" */;
+			buildPhases = (
+				A32D54062BF9CC6F00D26086 /* Sources */,
+				A32D54072BF9CC6F00D26086 /* Frameworks */,
+				A32D54082BF9CC6F00D26086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32D540C2BF9CC6F00D26086 /* PBXTargetDependency */,
+			);
+			name = "Telegraf Watch AppUITests";
+			productName = "Telegraf Watch AppUITests";
+			productReference = A32D540A2BF9CC6F00D26086 /* Telegraf Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A32D53C02BF9CC6D00D26086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A32D53C72BF9CC6D00D26086 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A32D53D72BF9CC6E00D26086 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A32D53C72BF9CC6D00D26086;
+					};
+					A32D53E12BF9CC6E00D26086 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A32D53C72BF9CC6D00D26086;
+					};
+					A32D53ED2BF9CC6E00D26086 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A32D53FF2BF9CC6F00D26086 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A32D53ED2BF9CC6E00D26086;
+					};
+					A32D54092BF9CC6F00D26086 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A32D53ED2BF9CC6E00D26086;
+					};
+				};
+			};
+			buildConfigurationList = A32D53C32BF9CC6D00D26086 /* Build configuration list for PBXProject "Telegraf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A32D53BF2BF9CC6D00D26086;
+			productRefGroup = A32D53C92BF9CC6D00D26086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32D53C72BF9CC6D00D26086 /* Telegraf */,
+				A32D53D72BF9CC6E00D26086 /* TelegrafTests */,
+				A32D53E12BF9CC6E00D26086 /* TelegrafUITests */,
+				A32D53ED2BF9CC6E00D26086 /* Telegraf Watch App */,
+				A32D53FF2BF9CC6F00D26086 /* Telegraf Watch AppTests */,
+				A32D54092BF9CC6F00D26086 /* Telegraf Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A32D53C62BF9CC6D00D26086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32D53D32BF9CC6E00D26086 /* Preview Assets.xcassets in Resources */,
+				A32D53D02BF9CC6E00D26086 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D53D62BF9CC6E00D26086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D53E02BF9CC6E00D26086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D53EC2BF9CC6E00D26086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32D53FB2BF9CC6F00D26086 /* Preview Assets.xcassets in Resources */,
+				A32D53F82BF9CC6F00D26086 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D53FE2BF9CC6F00D26086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D54082BF9CC6F00D26086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32D53C42BF9CC6D00D26086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32D53CE2BF9CC6D00D26086 /* ContentView.swift in Sources */,
+				A32D53CC2BF9CC6D00D26086 /* TelegrafApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D53D42BF9CC6E00D26086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32D53DD2BF9CC6E00D26086 /* TelegrafTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D53DE2BF9CC6E00D26086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32D53E92BF9CC6E00D26086 /* TelegrafUITestsLaunchTests.swift in Sources */,
+				A32D53E72BF9CC6E00D26086 /* TelegrafUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D53EA2BF9CC6E00D26086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32D53F62BF9CC6E00D26086 /* ContentView.swift in Sources */,
+				A32D53F42BF9CC6E00D26086 /* TelegrafApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D53FC2BF9CC6F00D26086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32D54052BF9CC6F00D26086 /* Telegraf_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32D54062BF9CC6F00D26086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32D54112BF9CC6F00D26086 /* Telegraf_Watch_AppUITestsLaunchTests.swift in Sources */,
+				A32D540F2BF9CC6F00D26086 /* Telegraf_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A32D53DA2BF9CC6E00D26086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32D53C72BF9CC6D00D26086 /* Telegraf */;
+			targetProxy = A32D53D92BF9CC6E00D26086 /* PBXContainerItemProxy */;
+		};
+		A32D53E42BF9CC6E00D26086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32D53C72BF9CC6D00D26086 /* Telegraf */;
+			targetProxy = A32D53E32BF9CC6E00D26086 /* PBXContainerItemProxy */;
+		};
+		A32D53F12BF9CC6E00D26086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32D53ED2BF9CC6E00D26086 /* Telegraf Watch App */;
+			targetProxy = A32D53F02BF9CC6E00D26086 /* PBXContainerItemProxy */;
+		};
+		A32D54022BF9CC6F00D26086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32D53ED2BF9CC6E00D26086 /* Telegraf Watch App */;
+			targetProxy = A32D54012BF9CC6F00D26086 /* PBXContainerItemProxy */;
+		};
+		A32D540C2BF9CC6F00D26086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32D53ED2BF9CC6E00D26086 /* Telegraf Watch App */;
+			targetProxy = A32D540B2BF9CC6F00D26086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A32D54122BF9CC6F00D26086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A32D54132BF9CC6F00D26086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A32D54152BF9CC6F00D26086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Telegraf Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Telegraf;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = natasharadika.Telegraf;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = natasharadika.Telegraf.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		A32D54162BF9CC6F00D26086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Telegraf Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Telegraf;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = natasharadika.Telegraf;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = natasharadika.Telegraf.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		A32D54192BF9CC6F00D26086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Telegraf/Preview Content\"";
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Telegraf;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = natasharadika.Telegraf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A32D541A2BF9CC6F00D26086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Telegraf/Preview Content\"";
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Telegraf;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = natasharadika.Telegraf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A32D541C2BF9CC6F00D26086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = natasharadika.TelegrafTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telegraf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Telegraf";
+			};
+			name = Debug;
+		};
+		A32D541D2BF9CC6F00D26086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = natasharadika.TelegrafTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telegraf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Telegraf";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A32D541F2BF9CC6F00D26086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = natasharadika.TelegrafUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Telegraf;
+			};
+			name = Debug;
+		};
+		A32D54202BF9CC6F00D26086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = natasharadika.TelegrafUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Telegraf;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A32D54222BF9CC6F00D26086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "natasharadika.Telegraf-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telegraf Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Telegraf Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		A32D54232BF9CC6F00D26086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "natasharadika.Telegraf-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telegraf Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Telegraf Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		A32D54252BF9CC6F00D26086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "natasharadika.Telegraf-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Telegraf Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		A32D54262BF9CC6F00D26086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76R68ZMQGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "natasharadika.Telegraf-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Telegraf Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32D53C32BF9CC6D00D26086 /* Build configuration list for PBXProject "Telegraf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32D54122BF9CC6F00D26086 /* Debug */,
+				A32D54132BF9CC6F00D26086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32D54142BF9CC6F00D26086 /* Build configuration list for PBXNativeTarget "Telegraf Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32D54152BF9CC6F00D26086 /* Debug */,
+				A32D54162BF9CC6F00D26086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32D54182BF9CC6F00D26086 /* Build configuration list for PBXNativeTarget "Telegraf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32D54192BF9CC6F00D26086 /* Debug */,
+				A32D541A2BF9CC6F00D26086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32D541B2BF9CC6F00D26086 /* Build configuration list for PBXNativeTarget "TelegrafTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32D541C2BF9CC6F00D26086 /* Debug */,
+				A32D541D2BF9CC6F00D26086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32D541E2BF9CC6F00D26086 /* Build configuration list for PBXNativeTarget "TelegrafUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32D541F2BF9CC6F00D26086 /* Debug */,
+				A32D54202BF9CC6F00D26086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32D54212BF9CC6F00D26086 /* Build configuration list for PBXNativeTarget "Telegraf Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32D54222BF9CC6F00D26086 /* Debug */,
+				A32D54232BF9CC6F00D26086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32D54242BF9CC6F00D26086 /* Build configuration list for PBXNativeTarget "Telegraf Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32D54252BF9CC6F00D26086 /* Debug */,
+				A32D54262BF9CC6F00D26086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A32D53C02BF9CC6D00D26086 /* Project object */;
+}
